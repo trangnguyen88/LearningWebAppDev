@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font: bold 30px Tahoma;
+}
+h4 {
+    font: bold 14px Tahoma;
+}
+header,
+section,
+footer,
+aside,
+nav {
+    display: block;
+}
+body {
+    width: 100%;
+    text-align: center;
+}
+address {
+    display: inline-block;
+    font-style: italic;
+}
+#big_wrapper {
+    border: none;
+    width: 1000px;
+    margin: 20px auto;
+    text-align: left;
+}
+#top_header {
+    background: yellow;
+    border: 3px solid;
+    padding: 20px;
+    text-align: center;
+}
+#top_menu {
+    background: white;
+    color: black;
+}
+#top_menu li {
+    padding: 30px;
+    font: bold 18px Tahoma;
+    display: inline-block;
+    list-style: none;
+}
+#main_section {
+    float: left;
+    width: 660px;
+    margin: 30px;
+    /*720px,280left*/
+}
+#side_news {
+    float: right;
+    width: 220px;
+    padding: 30px;
+}
+#the_footer {
+    clear: both;
+    text-align: center;
+}
